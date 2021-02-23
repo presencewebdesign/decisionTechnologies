@@ -15,18 +15,23 @@ class Store extends Observable {
   }
 
   filterData(data, product, provider) {
-    console.log(
-      "🚀 ~ file: Store.js ~ line 52 ~ Store ~ filterData ~ this.state.productFilters",
-      this.state.productFilters
-    );
+    const checkProductBroadband = product.map((f) => {
+      if (f === "broadband") {
+        const filterAddProduct = data.filter((prod) => {
+          const addProduct = ["fibre broadband"];
+          return addProduct.every(function (val) {
+            return prod.productTypes.indexOf(val) !== -1;
+          });
+        });
 
-    // if (sameProduct) {
-    //   product.push("fibre broadband");
-    // }
+        return filterAddProduct;
+      }
+    });
 
     if (provider) {
       data = data.filter((x) => x.provider.id === provider);
     }
+
     const filterProduct = data.filter((prod) => {
       return product.every(function (val) {
         return prod.productTypes.indexOf(val) !== -1;
@@ -34,6 +39,10 @@ class Store extends Observable {
     });
 
     data = filterProduct;
+    if (checkProductBroadband && checkProductBroadband.length > 0) {
+      data = [...filterProduct, ...checkProductBroadband[0]];
+    }
+
     return data;
   }
 
@@ -49,7 +58,7 @@ class Store extends Observable {
   setDeals(data) {
     // set all productTypes to lowercase
     const newData = data.map((value) => {
-      const ptlowercase = value.productTypes.map((v) => v.toLowerCase());
+      const ptlowercase = value.productTypes.map((v) => v.trim().toLowerCase());
       value.productTypes = ptlowercase;
       return value;
     });
@@ -60,7 +69,6 @@ class Store extends Observable {
 
   setProductFilter(value) {
     const filter = value.trim().toLowerCase();
-
     const index = this.state.productFilters.indexOf(filter);
     if (index === -1) {
       this.state.productFilters.push(filter);
