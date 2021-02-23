@@ -1,0 +1,32 @@
+.filters {
+  position: sticky;
+  top: 20px;
+
+  &__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__group {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #eee;
+  }
+}
+
+.filter {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &__label {
+    font-size: 14px;
+    vertical-align: top;
+  }
+
+  &__checkbox {
+    margin-right: 4px;
+  }
+}

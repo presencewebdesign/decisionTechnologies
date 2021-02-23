@@ -1,0 +1,41 @@
+.deal {
+  &__header {
+    margin-bottom: 16px;
+  }
+
+  &__footer {
+    margin-top: 16px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__features {
+    display: flex;
+  }
+
+  &__feature {
+    flex: 1 1 0;
+    width: 0;
+  }
+
+  &__feature-label {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  &__feature-value {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__products > li {
+    display: inline-block;
+  }
+
+  &__products > li:not(:first-child) {
+    margin-left: 2px;
+  }
+}

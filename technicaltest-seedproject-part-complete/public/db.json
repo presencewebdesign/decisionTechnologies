@@ -1,0 +1,158 @@
+{
+  "deals": [
+    {
+      "id": 6158,
+      "title": "Unlimited Broadband",
+      "provider": {
+        "id": 116,
+        "name": "Origin Broadband"
+      },
+      "cost": {
+        "upfrontCost": 0.0,
+        "totalContractCost": 233.88
+      },
+      "productTypes": ["Broadband", "Phone"],
+      "contractLength": 12
+    },
+    {
+      "id": 4359,
+      "title": "Unlimited Broadband & Unlimited UK & Mobile Calls",
+      "provider": {
+        "id": 42,
+        "name": "Plusnet"
+      },
+      "cost": {
+        "upfrontCost": 10.0,
+        "totalContractCost": 383.87
+      },
+      "productTypes": ["Broadband", "Phone"],
+      "contractLength": 18
+    },
+    {
+      "id": 6074,
+      "title": "Starter + Unlimited Infinity 1 + Weekend Calls",
+      "provider": {
+        "id": 3,
+        "name": "BT"
+      },
+      "cost": {
+        "upfrontCost": 34.99,
+        "totalContractCost": 436.87
+      },
+      "productTypes": ["TV", "Phone", "Fibre Broadband"],
+      "contractLength": 12
+    },
+    {
+      "id": 4371,
+      "title": "Unlimited Fibre Extra",
+      "provider": {
+        "id": 42,
+        "name": "Plusnet"
+      },
+      "cost": {
+        "upfrontCost": 25.0,
+        "totalContractCost": 564.82
+      },
+      "productTypes": ["Phone", "Fibre Broadband"],
+      "contractLength": 18
+    },
+    {
+      "id": 5459,
+      "title": "Unlimited Fibre Extra & Evening & Weekend UK & Mobile Calls",
+      "provider": {
+        "id": 42,
+        "name": "Plusnet"
+      },
+      "cost": {
+        "upfrontCost": 25.0,
+        "totalContractCost": 636.82
+      },
+      "productTypes": ["Phone", "Broadband"],
+      "contractLength": 18
+    },
+    {
+      "id": 5738,
+      "title": "Starter + Unlimited Broadband + Weekend Calls",
+      "provider": {
+        "id": 3,
+        "name": "BT"
+      },
+      "cost": {
+        "upfrontCost": 59.99,
+        "totalContractCost": 383.87
+      },
+      "productTypes": ["TV", "Broadband", "Phone"],
+      "contractLength": 12
+    },
+    {
+      "id": 6165,
+      "title": "TV & Superfast Fibre & Weekend Calls",
+      "provider": {
+        "id": 48,
+        "name": "EE"
+      },
+      "cost": {
+        "upfrontCost": 32.0,
+        "totalContractCost": 689.0
+      },
+      "productTypes": ["TV", "Phone", "Fibre Broadband"],
+      "contractLength": 18
+    },
+    {
+      "id": 6468,
+      "title": "Sports Bundle 2 Packs + Broadband Unlimited",
+      "provider": {
+        "id": 1,
+        "name": "Sky"
+      },
+      "cost": {
+        "upfrontCost": 39.95,
+        "totalContractCost": 1263.77
+      },
+      "productTypes": ["TV", "Broadband", "Phone"],
+      "contractLength": 18
+    },
+    {
+      "id": 4529,
+      "title": "Unlimited BT Infinity 1 & Weekend Calls + BT Mobile + BT Sport Pack",
+      "provider": {
+        "id": 3,
+        "name": "BT"
+      },
+      "cost": {
+        "upfrontCost": 34.99,
+        "totalContractCost": 577.87
+      },
+      "productTypes": ["Phone", "Fibre Broadband", "Mobile", "TV"],
+      "contractLength": 12
+    },
+    {
+      "id": 4530,
+      "title": "Unlimited BT Infinity 2 + Weekend Calls + BT Mobile + BT Sport Pack",
+      "provider": {
+        "id": 3,
+        "name": "BT"
+      },
+      "cost": {
+        "upfrontCost": 34.99,
+        "totalContractCost": 817.87
+      },
+      "productTypes": ["Phone", "Broadband", "Mobile", "TV"],
+      "contractLength": 12
+    },
+    {
+      "id": 4276,
+      "title": "Unlimited Broadband + Weekend Calls + BT Mobile",
+      "provider": {
+        "id": 3,
+        "name": "BT"
+      },
+      "cost": {
+        "upfrontCost": 9.99,
+        "totalContractCost": 393.87
+      },
+      "productTypes": ["Broadband", "Phone", "Mobile"],
+      "contractLength": 12
+    }
+  ]
+}

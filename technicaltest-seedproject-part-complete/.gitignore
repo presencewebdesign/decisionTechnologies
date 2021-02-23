@@ -1,0 +1,10 @@
+*.swp
+*.*~
+.DS_Store
+*.pyc
+*.rej
+.vscode
+.vs/
+public/scripts
+public/styles
+node_modules

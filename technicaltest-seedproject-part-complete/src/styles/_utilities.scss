@@ -1,0 +1,24 @@
+.site-trunk {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.shadow {
+  border-radius: 5px;
+  padding: 12px;
+  box-shadow: 0 1px 6px #ccc;
+  background-color: #fff;
+}
